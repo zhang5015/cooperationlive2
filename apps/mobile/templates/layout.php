@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
     <title>Cooperation Live</title>
-    <?php include_javascripts() ?>
+    <?php //include_javascripts() ?>
     <?php include_stylesheets() ?>
     <meta content="IE=11.0000" http-equiv="X-UA-Compatible"/>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
@@ -976,7 +976,10 @@
         }
     }
 </script>
-
+<script src="js/2052.min.js" type="text/javascript"></script>
+<script src="js/jqmobi.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jqmobi_ui.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/mobi.min.js" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript">
     var _faiAjax = function () {
         // for regexp
@@ -1119,7 +1122,7 @@
                 "ide": "",
                 "col": 0,
                 "aj": "",
-                "du": "http://12289556.s61i.faiusr.com/0/AD0IlIzuBRACGAAg1-_XywUogOHuogYwgAU4rAI?f=AD0IlIzuBRACGAAg1-_XywUogOHuogYwgAU4rAI.jpg&v=",
+                "du": "http://12289556.s61i.faiusr.com/0/AD0IlIzuBRACGAAg1-_XywUogOHuogYwgAU4rAI?f=AD0IlIzuBRACGAAg1-_XywUogOHuogYwgAU4rAI.jpg",
                 "p": "http://12289556.s61i.faiusr.com/2/AD0IlIzuBRACGAAg1-_XywUogOHuogYwgAU4rAI!640x640.jpg",
                 "tp": "http://12289556.s61i.faiusr.com/2/AD0IlIzuBRACGAAg1-_XywUogOHuogYwgAU4rAI!100x100.jpg",
                 "w": 640,
@@ -1133,7 +1136,7 @@
                 "ide": "",
                 "col": 0,
                 "aj": "",
-                "du": "http://12289556.s61i.faiusr.com/0/AD0IlIzuBRACGAAg0v_XywUo_OijhgIwgAU4rAI?f=AD0IlIzuBRACGAAg0v_XywUo_OijhgIwgAU4rAI.jpg&v=",
+                "du": "http://12289556.s61i.faiusr.com/0/AD0IlIzuBRACGAAg0v_XywUo_OijhgIwgAU4rAI?f=AD0IlIzuBRACGAAg0v_XywUo_OijhgIwgAU4rAI.jpg",
                 "p": "http://12289556.s61i.faiusr.com/2/AD0IlIzuBRACGAAg0v_XywUo_OijhgIwgAU4rAI!640x640.jpg",
                 "tp": "http://12289556.s61i.faiusr.com/2/AD0IlIzuBRACGAAg0v_XywUo_OijhgIwgAU4rAI!100x100.jpg",
                 "w": 640,
@@ -1496,7 +1499,7 @@
                                     "ide": "",
                                     "col": 0,
                                     "aj": "",
-                                    "du": "http://12289556.s61i.faiusr.com/0/AD0IlIzuBRACGAAg1-_XywUogOHuogYwgAU4rAI?f=AD0IlIzuBRACGAAg1-_XywUogOHuogYwgAU4rAI.jpg&v=",
+                                    "du": "http://12289556.s61i.faiusr.com/0/AD0IlIzuBRACGAAg1-_XywUogOHuogYwgAU4rAI?f=AD0IlIzuBRACGAAg1-_XywUogOHuogYwgAU4rAI.jpg",
                                     "p": "http://12289556.s61i.faiusr.com/2/AD0IlIzuBRACGAAg1-_XywUogOHuogYwgAU4rAI!640x640.jpg",
                                     "tp": "http://12289556.s61i.faiusr.com/2/AD0IlIzuBRACGAAg1-_XywUogOHuogYwgAU4rAI!100x100.jpg",
                                     "w": 640,
@@ -1509,7 +1512,7 @@
                                     "ide": "",
                                     "col": 0,
                                     "aj": "",
-                                    "du": "http://12289556.s61i.faiusr.com/0/AD0IlIzuBRACGAAg0v_XywUo_OijhgIwgAU4rAI?f=AD0IlIzuBRACGAAg0v_XywUo_OijhgIwgAU4rAI.jpg&v=",
+                                    "du": "http://12289556.s61i.faiusr.com/0/AD0IlIzuBRACGAAg0v_XywUo_OijhgIwgAU4rAI?f=AD0IlIzuBRACGAAg0v_XywUo_OijhgIwgAU4rAI.jpg",
                                     "p": "http://12289556.s61i.faiusr.com/2/AD0IlIzuBRACGAAg0v_XywUo_OijhgIwgAU4rAI!640x640.jpg",
                                     "tp": "http://12289556.s61i.faiusr.com/2/AD0IlIzuBRACGAAg0v_XywUo_OijhgIwgAU4rAI!100x100.jpg",
                                     "w": 640,
@@ -1547,7 +1550,7 @@
                                             "ide": "",
                                             "col": 0,
                                             "aj": "",
-                                            "du": "http://12289556.s61i.faiusr.com/0/AD0IlIzuBRACGAAg1-_XywUogOHuogYwgAU4rAI?f=AD0IlIzuBRACGAAg1-_XywUogOHuogYwgAU4rAI.jpg&v=",
+                                            "du": "http://12289556.s61i.faiusr.com/0/AD0IlIzuBRACGAAg1-_XywUogOHuogYwgAU4rAI?f=AD0IlIzuBRACGAAg1-_XywUogOHuogYwgAU4rAI.jpg",
                                             "p": "http://12289556.s61i.faiusr.com/2/AD0IlIzuBRACGAAg1-_XywUogOHuogYwgAU4rAI!640x640.jpg",
                                             "tp": "http://12289556.s61i.faiusr.com/2/AD0IlIzuBRACGAAg1-_XywUogOHuogYwgAU4rAI!100x100.jpg",
                                             "w": 640,
@@ -1561,7 +1564,7 @@
                                             "ide": "",
                                             "col": 0,
                                             "aj": "",
-                                            "du": "http://12289556.s61i.faiusr.com/0/AD0IlIzuBRACGAAg0v_XywUo_OijhgIwgAU4rAI?f=AD0IlIzuBRACGAAg0v_XywUo_OijhgIwgAU4rAI.jpg&v=",
+                                            "du": "http://12289556.s61i.faiusr.com/0/AD0IlIzuBRACGAAg0v_XywUo_OijhgIwgAU4rAI?f=AD0IlIzuBRACGAAg0v_XywUo_OijhgIwgAU4rAI.jpg",
                                             "p": "http://12289556.s61i.faiusr.com/2/AD0IlIzuBRACGAAg0v_XywUo_OijhgIwgAU4rAI!640x640.jpg",
                                             "tp": "http://12289556.s61i.faiusr.com/2/AD0IlIzuBRACGAAg0v_XywUo_OijhgIwgAU4rAI!100x100.jpg",
                                             "w": 640,
@@ -1601,7 +1604,7 @@
                                                 "ide": "",
                                                 "col": 0,
                                                 "aj": "",
-                                                "du": "http://12289556.s61i.faiusr.com/0/AD0IlIzuBRACGAAg1-_XywUogOHuogYwgAU4rAI?f=AD0IlIzuBRACGAAg1-_XywUogOHuogYwgAU4rAI.jpg&v=",
+                                                "du": "http://12289556.s61i.faiusr.com/0/AD0IlIzuBRACGAAg1-_XywUogOHuogYwgAU4rAI?f=AD0IlIzuBRACGAAg1-_XywUogOHuogYwgAU4rAI.jpg",
                                                 "p": "http://12289556.s61i.faiusr.com/2/AD0IlIzuBRACGAAg1-_XywUogOHuogYwgAU4rAI!640x640.jpg",
                                                 "tp": "http://12289556.s61i.faiusr.com/2/AD0IlIzuBRACGAAg1-_XywUogOHuogYwgAU4rAI!100x100.jpg",
                                                 "w": 640,
@@ -1615,7 +1618,7 @@
                                                 "ide": "",
                                                 "col": 0,
                                                 "aj": "",
-                                                "du": "http://12289556.s61i.faiusr.com/0/AD0IlIzuBRACGAAg0v_XywUo_OijhgIwgAU4rAI?f=AD0IlIzuBRACGAAg0v_XywUo_OijhgIwgAU4rAI.jpg&v=",
+                                                "du": "http://12289556.s61i.faiusr.com/0/AD0IlIzuBRACGAAg0v_XywUo_OijhgIwgAU4rAI?f=AD0IlIzuBRACGAAg0v_XywUo_OijhgIwgAU4rAI.jpg",
                                                 "p": "http://12289556.s61i.faiusr.com/2/AD0IlIzuBRACGAAg0v_XywUo_OijhgIwgAU4rAI!640x640.jpg",
                                                 "tp": "http://12289556.s61i.faiusr.com/2/AD0IlIzuBRACGAAg0v_XywUo_OijhgIwgAU4rAI!100x100.jpg",
                                                 "w": 640,
@@ -1657,7 +1660,7 @@
                                                     "ide": "",
                                                     "col": 0,
                                                     "aj": "",
-                                                    "du": "http://12289556.s61i.faiusr.com/0/AD0IlIzuBRACGAAg1-_XywUogOHuogYwgAU4rAI?f=AD0IlIzuBRACGAAg1-_XywUogOHuogYwgAU4rAI.jpg&v=",
+                                                    "du": "http://12289556.s61i.faiusr.com/0/AD0IlIzuBRACGAAg1-_XywUogOHuogYwgAU4rAI?f=AD0IlIzuBRACGAAg1-_XywUogOHuogYwgAU4rAI.jpg",
                                                     "p": "http://12289556.s61i.faiusr.com/2/AD0IlIzuBRACGAAg1-_XywUogOHuogYwgAU4rAI!640x640.jpg",
                                                     "tp": "http://12289556.s61i.faiusr.com/2/AD0IlIzuBRACGAAg1-_XywUogOHuogYwgAU4rAI!100x100.jpg",
                                                     "w": 640,
@@ -1671,7 +1674,7 @@
                                                     "ide": "",
                                                     "col": 0,
                                                     "aj": "",
-                                                    "du": "http://12289556.s61i.faiusr.com/0/AD0IlIzuBRACGAAg0v_XywUo_OijhgIwgAU4rAI?f=AD0IlIzuBRACGAAg0v_XywUo_OijhgIwgAU4rAI.jpg&v=",
+                                                    "du": "http://12289556.s61i.faiusr.com/0/AD0IlIzuBRACGAAg0v_XywUo_OijhgIwgAU4rAI?f=AD0IlIzuBRACGAAg0v_XywUo_OijhgIwgAU4rAI.jpg",
                                                     "p": "http://12289556.s61i.faiusr.com/2/AD0IlIzuBRACGAAg0v_XywUo_OijhgIwgAU4rAI!640x640.jpg",
                                                     "tp": "http://12289556.s61i.faiusr.com/2/AD0IlIzuBRACGAAg0v_XywUo_OijhgIwgAU4rAI!100x100.jpg",
                                                     "w": 640,
@@ -1708,8 +1711,7 @@
                             Mobi.initFooterHeight();
                         });
                 // 手机视图初始化函数
-                Mobi
-                    .initMobiPage({
+                Mobi.initMobiPage({
                         "id": 1027,
                         "createTime": "2017-07-09",
                         "preview": "/images/template/1027/1027.jpg",
@@ -1914,11 +1916,6 @@
                             }]);
                 Mobi.loadImgAlone(308, 1);
                 Mobi.manageFaiscoAd(4);
-                // 访客态页面提示错误
-//                        if (!Fai.top._manageMode) {
-//                            errnoIng();
-//                        }
-//                        setTimeout("hasOpenFaiscoBaiduBridge()", 1000);// 延迟一秒，等待百度商桥加载完成
                 initManagePage();
             });
 
@@ -1996,7 +1993,6 @@
     //    }
 
     // 解决苹果手机浏览模板网站，右下角的手机模板显示不正常的bug
-
     if (false) {
         var mallBuy = localStorage.getItem("mallBuyCallBack");
         if (!!mallBuy) {
