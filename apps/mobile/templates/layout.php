@@ -2,7 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
     <title>Cooperation Live</title>
-    <?php //include_javascripts() ?>
     <?php include_stylesheets() ?>
     <meta content="IE=11.0000" http-equiv="X-UA-Compatible"/>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
@@ -976,10 +975,12 @@
         }
     }
 </script>
-<script src="js/2052.min.js" type="text/javascript"></script>
-<script src="js/jqmobi.min.js" type="text/javascript" charset="utf-8"></script>
-<script src="js/jqmobi_ui.min.js" type="text/javascript" charset="utf-8"></script>
-<script src="js/mobi.min.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript" src="/js/2052.min.js" ></script>
+<script type="text/javascript" src="/js/jqmobi.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="/js/jqmobi_ui.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="/js/mobi.min.js" charset="utf-8"></script>
+
 <script type="text/javascript">
     var _faiAjax = function () {
         // for regexp
@@ -1299,26 +1300,6 @@
             },
             "typeStr": "qq"
         },
-//        "open" : true,
-//        "order" : [ 1, 2, 5, 3, 4 ],
-//        "baiduBridge" : {
-//            "open" : false,
-//            "name" : "百度商桥",
-//            "type" : -1,
-//            "baseSetting" : {
-//                "c" : 0,
-//                "i" : 0,
-//                "id" : 0,
-//                "iconType" : 0,
-//                "colIconType" : 0,
-//                "colIconCusType" : 0,
-//                "classname" : "faisco-icons-scBdsq2",
-//                "content" : "\\eada",
-//                "color" : "",
-//                "iconFileId" : "iconFileId"
-//            },
-//            "typeStr" : "baiduBridge"
-//        },
         "weChat": {
             "open": false,
             "name": "微信客服",
@@ -1480,7 +1461,7 @@
 //                            alert("该栏目已经删除，点击确定后，将返回到首页");
 //                            document.location.href = "/index.php"
 //                        }
-                // Mobi.viewPageBeforeInit();
+                Mobi.viewPageBeforeInit();
                 // 绑定退出事件
                 jm(window)
                     .bind(
@@ -1947,7 +1928,7 @@
         }
     }
 
-    // Mobi.preventScroll(document.getElementById("g_body"));//阻止滚轮事件冒泡
+    Mobi.preventScroll(document.getElementById("g_body"));//阻止滚轮事件冒泡
 
     // 访客态下，统计微信浏览器的使用情况
 
@@ -1956,41 +1937,6 @@
     } else {
         Mobi.logDog(200055, 0);
     }
-    // 管理下，禁止点击跳转外链
-    // 接入我们的百度商桥才隐藏默认的图标
-    //    function hasOpenFaiscoBaiduBridge() {
-    //        if (Fai.top._mallService == 2) {
-    //            // 商城主题
-    //            for ( var i in Fai.top._serviceList) {
-    //                if (Fai.top._serviceList[i].serviceType == 2) {
-    //                    if (Fai.top._serviceList[i].showType == true) {
-    //                        Fai.top.Mobi.getPreviewWindow().jm("ins#newBridge")
-    //                                .hide();
-    //                        break;
-    //                    } else {
-    //                        Fai.top.Mobi.getPreviewWindow().jm("ins#newBridge")
-    //                                .show();
-    //                        break;
-    //                    }
-    //                } else {
-    //                    Fai.top.Mobi.getPreviewWindow().jm("ins#newBridge")
-    //                            .show();
-    //                }
-    //            }
-    //        } else {
-    //            // 非商城主题
-    //            if (Fai.top._onlineServiceJson.baiduBridge.open == true) {
-    //                Fai.top.Mobi.getPreviewWindow().jm("ins#newBridge").hide();
-    //            } else {
-    //                Fai.top.Mobi.getPreviewWindow().jm("ins#newBridge").show();
-    //            }
-    //        }
-    //        // 百度商桥统计
-    //        jm("#newBridge #nb_icon_wrap").off('click.log').on('click.log',
-    //                function() {
-    //                    Mobi.logDog(200171, 5);
-    //                });
-    //    }
 
     // 解决苹果手机浏览模板网站，右下角的手机模板显示不正常的bug
     if (false) {

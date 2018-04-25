@@ -20,17 +20,17 @@ Options +FollowSymLinks +ExecCGI
   # no, so we redirect to our front web controller
   #RewriteRule ^(.*)$ index.php [QSA,L]
 
-  RewriteCond %{http_host} ^manage.cooperationlive.com
+  RewriteCond %{http_host} ^manage.cooperationlive.test
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteRule ^(.*)$ backend.php [QSA,L]
 
-  RewriteCond %{http_host} ^m.cooperationlive.com
+  RewriteCond %{http_host} ^m.cooperationlive.test
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteRule ^(.*)$ mobile.php [QSA,L]
 
-  RewriteCond %{http_host} ^www.cooperationlive.com
+  RewriteCond %{http_host} ^www.cooperationlive.test
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteRule ^(.*)$ index.php [QSA,L]
