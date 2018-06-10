@@ -19,19 +19,19 @@ require_once(dirname(__FILE__).'/../lib/BasesfGuardAuthActions.class.php');
  */
 class sfGuardAuthActions extends BasesfGuardAuthActions
 {
-	public function executeMobile(sfWebRequest $request)
-	{
-		$username = $request->getParameter("username");
-		$password = $request->getParameter("password");
+  public function executeMobile(sfWebRequest $request)
+  {
+    $username = $request->getParameter("username");
+    $password = $request->getParameter("password");
 
-		if(!$username) $username="xiaohua";
-		$returnValue = Array(
+    if(!$username) $username="xiaohua";
+    $returnValue = Array(
             "user",
-		$username
-		);
-		echo   json_encode($returnValue);
-		//		$response->setContentType("text/json;charset=UTF-8");
+    $username
+    );
+    echo   json_encode($returnValue);
+    //    $response->setContentType("text/json;charset=UTF-8");
 
-		return sfView::NONE;
-	}
+    return sfView::NONE;
+  }
 }
