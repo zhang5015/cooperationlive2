@@ -105,3 +105,7 @@ category_article:
 change_language:
   url:   /change_language
   param: { module: sfCooperationLanguage, action: changeLanguage }
+
+mobile_signin:
+  url:   /mobile/login
+  param: { module: sfGuardAuth, action: mobile }
