@@ -31,9 +31,7 @@ class sfGuardAuthActions extends BasesfGuardAuthActions
 		);
 		echo   json_encode($returnValue);
 		//		$response->setContentType("text/json;charset=UTF-8");
-		//		$response->setContent(json_encode($returnValue));
-		//		return $response;
-		////		return json_encode($returnValue);
+
 		return sfView::NONE;
 	}
 }
